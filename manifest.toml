@@ -2,8 +2,8 @@
 
 packaging_format = 2
 
-id = "example"
-name = "Example app"
+id = "antmedia"
+name = "Ant Media Server"
 description.en = "Explain in *a few (10~15) words* the purpose of the app or what it actually does (it is meant to give a rough idea to users browsing a catalog of 100+ apps)"
 description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
 
@@ -16,7 +16,6 @@ license = "free"
 website = "https://antmedia.io/"
 demo = "https://demo.example.com"
 admindoc = "https://antmedia.io/docs/guides/installing-on-linux/installing-ams-on-linux/"
-userdoc = "https://yunohost.org/apps"
 code = "https://github.com/ant-media/Ant-Media-Server"
 
 [integration]
