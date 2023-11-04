@@ -63,7 +63,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.ports]
-    5443
+    main.default = 5080
 
     [resources.apt]
     packages = "openjdk-11-jre"
