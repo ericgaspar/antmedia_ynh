@@ -4,10 +4,10 @@ After=syslog.target network.target
 
 [Service]
 Type=simple
-User=antmedia
-Group=antmedia
+User=__APP
+Group=__APP__
 Environment=JVM_MEMORY_OPTIONS=
-Environment=JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+Environment=JAVA_HOME=/usr/bin/java
 LimitNOFILE=65536
 Environment=ANTMEDIA_HOME=__INSTALL_DIR__/antmedia
 WorkingDirectory=__INSTALL_DIR__/antmedia
